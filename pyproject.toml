@@ -1,0 +1,22 @@
+[project]
+name = "tmux-journal"
+version = "0.1.0"
+description = "Automatic tmux session logger with AI-powered summaries"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+keywords = ["tmux", "terminal", "logging", "ai", "productivity"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Topic :: System :: Shells",
+    "Topic :: Utilities",
+]
+dependencies = ["httpx>=0.24"]
+
+[project.scripts]
+tmux-journal = "summarize:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+pane_*.log
+pane_*.name
+debug.log
+summary.log
+.last_capture
+.last_content
+.last_hash
+.capture.lock
+*.log
